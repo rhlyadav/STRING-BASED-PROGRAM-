@@ -1,4 +1,7 @@
- 
+ /*
+input -> 12werW##$%@2d]
+output-> ]@%$##
+*/
 import java.io.*;
  import java.util.*;
 /* Name of the class has to be 'Main' only if the class is public. */
