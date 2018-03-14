@@ -1,0 +1,25 @@
+i/p->   hello my name is rahul  
+ 6 postion add 'yadav'
+ o/p->  hello my name is rahul  yadav
+ 
+ import java.util.Scanner;
+class addword
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+String s=sc.nextLine();
+int n=sc.nextInt();
+String word=sc.next();
+String[] s1=s.split(" ");
+int l=s1.length;
+for(int i=0;i<l;i++)
+{
+System.out.print(s1[i]+" ");
+if(i==n-1)
+{
+System.out.print(word+" ");
+}
+}
+}
+}
